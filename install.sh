@@ -740,7 +740,7 @@ echo "################################################################"
 umount -a
 reboot
   elif [[ $int == 2 ]]; then
-  arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/alexgantera/arch/master/chroot.sh)"
+  arch-chroot /mnt sh -c "$(curl -fsSL https://raw.githubusercontent.com/Graninius/myarch/main/chroot.sh)"
 echo "################################################################"
 echo "###################    T H E   E N D      ######################"
 echo "################################################################"
